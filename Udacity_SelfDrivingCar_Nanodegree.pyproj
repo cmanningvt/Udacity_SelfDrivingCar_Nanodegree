@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c497b4ef-8131-4dda-aed2-9b849a1bb4c1}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Term1\2_FindingLaneLines\03_ColorSelectionCodeExample\module1.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|VisualStudio|carnd-term1</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="Term1\2_FindingLaneLines\03_ColorSelectionCodeExample\test.jpg">
+      <Publish>True</Publish>
+    </AdditionalFiles>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Term1\2_FindingLaneLines\03_ColorSelectionCodeExample\module1.py" />
+    <Compile Include="Term1\2_FindingLaneLines\05_RegionMasking\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Term1\2_FindingLaneLines\06_ColorAndRegionCombined\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Term1\2_FindingLaneLines\11_CannyToDetectLaneLines\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Term1\" />
+    <Folder Include="Term1\2_FindingLaneLines\" />
+    <Folder Include="Term1\2_FindingLaneLines\03_ColorSelectionCodeExample\" />
+    <Folder Include="Term1\2_FindingLaneLines\05_RegionMasking\" />
+    <Folder Include="Term1\2_FindingLaneLines\06_ColorAndRegionCombined\" />
+    <Folder Include="Term1\2_FindingLaneLines\11_CannyToDetectLaneLines\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|carnd-term1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Term1\2_FindingLaneLines\05_RegionMasking\test.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\06_ColorAndRegionCombined\test.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
