@@ -3,8 +3,9 @@
     "",
     "\\Term1",
     "\\Term1\\2_FindingLaneLines",
-    "\\Term1\\2_FindingLaneLines\\3_ColorSelectionCodeExample",
+    "\\Term1\\2_FindingLaneLines\\14_HoughTransformToFindLaneLines",
     "\\_Admin"
   ],
+  "SelectedNode": "\\Term1\\2_FindingLaneLines\\14_HoughTransformToFindLaneLines\\module1.py",
   "PreviewInSolutionExplorer": false
 }

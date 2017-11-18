@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{c497b4ef-8131-4dda-aed2-9b849a1bb4c1}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Term1\2_FindingLaneLines\03_ColorSelectionCodeExample\module1.py</StartupFile>
+    <StartupFile>Term1\2_FindingLaneLines\15_QuizHoughTransform\module1.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -34,6 +34,10 @@
     <Compile Include="Term1\2_FindingLaneLines\11_CannyToDetectLaneLines\module1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Term1\2_FindingLaneLines\14_HoughTransformToFindLaneLines\module1.py" />
+    <Compile Include="Term1\2_FindingLaneLines\15_QuizHoughTransform\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Term1\" />
@@ -42,6 +46,12 @@
     <Folder Include="Term1\2_FindingLaneLines\05_RegionMasking\" />
     <Folder Include="Term1\2_FindingLaneLines\06_ColorAndRegionCombined\" />
     <Folder Include="Term1\2_FindingLaneLines\11_CannyToDetectLaneLines\" />
+    <Folder Include="Term1\2_FindingLaneLines\14_HoughTransformToFindLaneLines\" />
+    <Folder Include="Term1\2_FindingLaneLines\15_QuizHoughTransform\" />
+    <Folder Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\" />
+    <Folder Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\examples\" />
+    <Folder Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\test_images\" />
+    <Folder Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\test_videos\" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|VisualStudio|carnd-term1" />
@@ -49,6 +59,26 @@
   <ItemGroup>
     <Content Include="Term1\2_FindingLaneLines\05_RegionMasking\test.jpg" />
     <Content Include="Term1\2_FindingLaneLines\06_ColorAndRegionCombined\test.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\11_CannyToDetectLaneLines\exit-ramp.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\14_HoughTransformToFindLaneLines\exit-ramp.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\15_QuizHoughTransform\exit-ramp.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\examples\grayscale.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\examples\laneLines_thirdPass.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\examples\line-segments-example.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\examples\P1_example.mp4" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\examples\raw-lines-example.mp4" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\P1.ipynb" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\README.md" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\test_images\solidWhiteCurve.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\test_images\solidWhiteRight.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\test_images\solidYellowCurve.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\test_images\solidYellowCurve2.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\test_images\solidYellowLeft.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\test_images\whiteCarLaneSwitch.jpg" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\test_videos\challenge.mp4" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\test_videos\solidWhiteRight.mp4" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\test_videos\solidYellowLeft.mp4" />
+    <Content Include="Term1\2_FindingLaneLines\20_Project_FindingLaneLinesOnTheRoad\writeup_template.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
