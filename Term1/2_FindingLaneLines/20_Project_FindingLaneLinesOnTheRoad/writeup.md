@@ -38,7 +38,8 @@ Lastly, I would draw the lines on the image/frame and updated the line history f
 
 
 Here is one example of my pipeline operating on an image.
-![alt text][image1][image2]
+![alt text][image1] ![alt text][image2]
+
 
 
 ### 2. Identify potential shortcomings with your current pipeline
