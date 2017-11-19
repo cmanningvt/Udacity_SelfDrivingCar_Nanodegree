@@ -66,6 +66,29 @@
     <Compile Include="Term1\4_IntroToNeuralNetworks\20_Backpropagation\data_prep.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Term1\5_Miniflow\05_ForwardPropogation\miniflow.py" />
+    <Compile Include="Term1\5_Miniflow\05_ForwardPropogation\nn.py" />
+    <Compile Include="Term1\5_Miniflow\06_ForwardPropogation\miniflow.py" />
+    <Compile Include="Term1\5_Miniflow\06_ForwardPropogation\nn.py" />
+    <Compile Include="Term1\5_Miniflow\06_ForwardPropogation\nn2.py" />
+    <Compile Include="Term1\5_Miniflow\07_LearningAndLoss\miniflow.py" />
+    <Compile Include="Term1\5_Miniflow\07_LearningAndLoss\nn.py" />
+    <Compile Include="Term1\5_Miniflow\08_LinearTransform\miniflow.py" />
+    <Compile Include="Term1\5_Miniflow\08_LinearTransform\nn.py" />
+    <Compile Include="Term1\5_Miniflow\09_SigmoidFunction\miniflow.py" />
+    <Compile Include="Term1\5_Miniflow\09_SigmoidFunction\nn.py" />
+    <Compile Include="Term1\5_Miniflow\10_Cost\miniflow.py" />
+    <Compile Include="Term1\5_Miniflow\10_Cost\nn.py" />
+    <Compile Include="Term1\5_Miniflow\12_GradientDescent\f.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Term1\5_Miniflow\12_GradientDescent\gd.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Term1\5_Miniflow\13_Backpropagation\miniflow.py" />
+    <Compile Include="Term1\5_Miniflow\13_Backpropagation\nn.py" />
+    <Compile Include="Term1\5_Miniflow\14_StochasticGradientDescent\miniflow.py" />
+    <Compile Include="Term1\5_Miniflow\14_StochasticGradientDescent\nn.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Term1\" />
@@ -85,6 +108,16 @@
     <Folder Include="Term1\4_IntroToNeuralNetworks\18_MultilayerPerceptrons\" />
     <Folder Include="Term1\4_IntroToNeuralNetworks\19_Backpropagation\" />
     <Folder Include="Term1\4_IntroToNeuralNetworks\20_Backpropagation\" />
+    <Folder Include="Term1\5_Miniflow\" />
+    <Folder Include="Term1\5_Miniflow\05_ForwardPropogation\" />
+    <Folder Include="Term1\5_Miniflow\06_ForwardPropogation\" />
+    <Folder Include="Term1\5_Miniflow\07_LearningAndLoss\" />
+    <Folder Include="Term1\5_Miniflow\08_LinearTransform\" />
+    <Folder Include="Term1\5_Miniflow\09_SigmoidFunction\" />
+    <Folder Include="Term1\5_Miniflow\10_Cost\" />
+    <Folder Include="Term1\5_Miniflow\12_GradientDescent\" />
+    <Folder Include="Term1\5_Miniflow\13_Backpropagation\" />
+    <Folder Include="Term1\5_Miniflow\14_StochasticGradientDescent\" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|VisualStudio|carnd-term1" />
