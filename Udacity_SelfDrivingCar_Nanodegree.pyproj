@@ -89,6 +89,30 @@
     <Compile Include="Term1\5_Miniflow\13_Backpropagation\nn.py" />
     <Compile Include="Term1\5_Miniflow\14_StochasticGradientDescent\miniflow.py" />
     <Compile Include="Term1\5_Miniflow\14_StochasticGradientDescent\nn.py" />
+    <Compile Include="Term1\6_IntroToTensorFlow\05_Installing\module1.py" />
+    <Compile Include="Term1\6_IntroToTensorFlow\07_TensorFlowInput\quiz.py" />
+    <Compile Include="Term1\6_IntroToTensorFlow\08_TensorFlowMath\quiz.py" />
+    <Compile Include="Term1\6_IntroToTensorFlow\13_TensorFlowLinearFunction\quiz.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Term1\6_IntroToTensorFlow\13_TensorFlowLinearFunction\sandbox.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Term1\6_IntroToTensorFlow\14_Softmax\main_code.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Term1\6_IntroToTensorFlow\15_TensorFlowSoftmax\quiz.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Term1\6_IntroToTensorFlow\19_TensorFlowCrossEntropy\quiz.py" />
+    <Compile Include="Term1\6_IntroToTensorFlow\33_Minibatch\helper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Term1\6_IntroToTensorFlow\33_Minibatch\quiz.py" />
+    <Compile Include="Term1\6_IntroToTensorFlow\33_Minibatch\quiz2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Term1\6_IntroToTensorFlow\33_Minibatch\sandbox.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Term1\" />
@@ -118,6 +142,15 @@
     <Folder Include="Term1\5_Miniflow\12_GradientDescent\" />
     <Folder Include="Term1\5_Miniflow\13_Backpropagation\" />
     <Folder Include="Term1\5_Miniflow\14_StochasticGradientDescent\" />
+    <Folder Include="Term1\6_IntroToTensorFlow\" />
+    <Folder Include="Term1\6_IntroToTensorFlow\05_Installing\" />
+    <Folder Include="Term1\6_IntroToTensorFlow\07_TensorFlowInput\" />
+    <Folder Include="Term1\6_IntroToTensorFlow\08_TensorFlowMath\" />
+    <Folder Include="Term1\6_IntroToTensorFlow\13_TensorFlowLinearFunction\" />
+    <Folder Include="Term1\6_IntroToTensorFlow\14_Softmax\" />
+    <Folder Include="Term1\6_IntroToTensorFlow\15_TensorFlowSoftmax\" />
+    <Folder Include="Term1\6_IntroToTensorFlow\19_TensorFlowCrossEntropy\" />
+    <Folder Include="Term1\6_IntroToTensorFlow\33_Minibatch\" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|VisualStudio|carnd-term1" />
