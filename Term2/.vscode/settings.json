@@ -1,0 +1,9 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "C:\\Python\\Miniconda3\\envs\\carnd-term1\\python.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "python.autoComplete.extraPaths": [
+        "${python.pythonPath}\\Lib",
+        "${python.pythonPath}\\DLLs"
+    ]
+}
